@@ -1,8 +1,11 @@
 #! /usr/bin/python3
 
+# pip install beautifulsoup4 lxml pandas requests
+
 import requests
 import pandas as pd
 from bs4 import BeautifulSoup as bsp
+
 
 url_goal = 'https://www.goal.com/br/not%C3%ADcias/programacao-partidas-futebol-tv-aberta-fechada-onde-assistir/1jf3cuk3yh5uz18j0s89y5od6w'
 req = requests.get(url_goal)
